@@ -1,0 +1,111 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table with 6 Rows and 2 Columns</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        table {
+            width: 60%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f7f7f7;
+            font-weight: bold;
+            color: #333;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        td a {
+            text-decoration: none;
+        }
+
+        button {
+            padding: 8px 16px;
+            margin: 5px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        button:focus {
+            outline: none;
+        }
+
+        td a button {
+            margin-left: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <tbody>
+            <!-- Row 1 -->
+            <tr>
+                <td><strong>Subject Name:</strong></td>
+                <td>Web Development</td>
+            </tr>
+            <!-- Row 2 -->
+            <tr>
+                <td><strong>Subject Code:</strong></td>
+                <td>BETCE 10202</td>
+            </tr>
+            <!-- Row 3 -->
+            <tr>
+                <td><strong>Student Name:</strong></td>
+                <td>Parmar Dharmik</td>
+            </tr>
+            <!-- Row 4 -->
+            <tr>
+                <td><strong>Enrollment No:</strong></td>
+                <td>240905091013</td>
+            </tr>
+            <!-- Row 5 -->
+            <tr>
+                <td><strong>Action:</strong></td>
+                <td> 
+                    <a href="https://iamdharmik.github.io/ala1/"><button>ALA-1</button></a>
+                    <a href="https://iamdharmik.github.io/ala-2"><button>ALA-2</button></a>
+                    <a href="https://iamdharmik.github.io/ala3"><button>ALA-3</button></a>
+                </td>
+            </tr>
+            <!-- Row 6 -->
+            <tr>
+                <td><strong>University Name:</strong></td>
+                <td>Gyanmanjari Innovative University</td>
+            </tr>
+        </tbody>
+    </table>
